@@ -469,8 +469,8 @@ body.rtl {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.16) inset, 0 0 8px #4fab2f; }
   /* line 260, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/_helpers.scss */
   .status-indicator.yellow {
-    background-color: #FFC334;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.16) inset, 0 0 8px #FFC334; }
+    background-color: #e2007a;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.16) inset, 0 0 8px #e2007a; }
   /* line 266, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/_helpers.scss */
   .status-indicator.red {
     background-color: #B00F23;
@@ -577,7 +577,7 @@ structure of the pattern library
     width: 24px;
     height: 3px;
     border: 0;
-    background: #FFC334; }
+    background: #e2007a; }
 
 /* line 47, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_layout.scss */
 .pl-sub-pattern {
@@ -681,7 +681,7 @@ structure of the pattern library
 
 /* line 16, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_header.scss */
 .pl-page-header {
-  background: #373E46; }
+  background: #000000; }
   /* line 19, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_header.scss */
   .pl-page-header h3 {
     font-weight: 400;
@@ -732,7 +732,7 @@ structure of the pattern library
 \*------------------------------------*/
 /* line 5, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_navigation.scss */
 .pl-nav {
-  background: #1E232A;
+  background: #000000;
   padding: 16px; }
   /* line 3, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/mixins/_clearfix.scss */
   .pl-nav:after {
@@ -797,7 +797,7 @@ structure of the pattern library
             padding: 16px; } }
   /* line 57, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_navigation.scss */
   .pl-nav .active {
-    border-left: #FFC334 3px solid;
+    border-left: #e2007a 3px solid;
     line-height: 2; }
     /* line 61, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_navigation.scss */
     .pl-nav .active a {
@@ -811,7 +811,7 @@ structure of the pattern library
         display: block;
         float: left;
         border-left: 0px;
-        border-bottom: #FFC334 3px solid; }
+        border-bottom: #e2007a 3px solid; }
         /* line 75, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_navigation.scss */
         .pl-nav .active:hover {
           border-left: 0px; } }
@@ -922,7 +922,7 @@ structure of the pattern library
     /* line 152, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/_navigation.scss */
     .pl-read-direction-nav .pl-read-direction-wrapper .ltr,
     .pl-read-direction-nav .pl-read-direction-wrapper .rtl {
-      background: #1E232A;
+      background: #000000;
       color: #FFFFFF;
       margin: 0 0 0 10px;
       padding: 5px 10px;
@@ -1164,12 +1164,12 @@ li.pl-icon {
 
 /* line 1, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/basics/_links.scss */
 .pl-dark-background {
-  background: #1E232A;
+  background: #000000;
   padding: 20px;
   color: #FFFFFF; }
   /* line 6, /Users/Brandon/Sites/platform-design.dev/assets/sass/0_pattern-library/basics/_links.scss */
   .pl-dark-background a {
-    color: #FFC334; }
+    color: #e2007a; }
 
 /* http://prismjs.com/download.html?themes=prism-coy&languages=markup+css+clike+javascript&plugins=autolinker */
 /**
@@ -1663,7 +1663,7 @@ p {
   margin: 16px 0; }
   /* line 9, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_typography.scss */
   p a {
-    border-bottom: 1px dotted #373E46; }
+    border-bottom: 1px dotted #000000; }
     /* line 12, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_typography.scss */
     p a:hover, p a:focus {
       border-bottom: 1px solid #0a0b0d; }
@@ -1690,7 +1690,7 @@ fieldset.date .date-joiner, .form-field-adapt.init.focus label, .form-field-adap
 
 /* line 37, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_typography.scss */
 a {
-  color: #373E46;
+  color: #000000;
   text-decoration: none; }
   /* line 42, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_typography.scss */
   a:hover, a:focus {
@@ -1786,7 +1786,7 @@ input[type="button"] {
   .button:active,
   input[type="button"]:active {
     color: #FFFFFF;
-    background-color: #1E232A;
+    background-color: #000000;
     -webkit-transition: none;
     transition: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
@@ -1825,11 +1825,11 @@ input[type="button"] {
 /* line 73, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
 .button-alpha {
   color: #2B323A;
-  background-color: #FFC334; }
+  background-color: #e2007a; }
   /* line 77, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
   .button-alpha:hover, .button-alpha:active, .button-alpha:focus {
     color: #2B323A;
-    background-color: #ffb401; }
+    background-color: #e2007a; }
   /* line 86, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
   .button-alpha.disabled:hover, .button-alpha[disabled]:hover {
     background-color: #EEEEEE;
@@ -1837,7 +1837,7 @@ input[type="button"] {
 
 /* line 93, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
 .button-beta {
-  color: #373E46;
+  color: #000000;
   background-color: #FAFAFA; }
   /* line 97, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
   .button-beta:hover {
@@ -1850,7 +1850,7 @@ input[type="button"] {
 
 /* line 111, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
 .button-gamma {
-  color: #373E46;
+  color: #000000;
   background-color: #FFFFFF; }
   /* line 115, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
   .button-gamma:hover, .button-gamma:active {
@@ -1878,7 +1878,7 @@ input[type="button"] {
 
 /* line 150, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_buttons.scss */
 .button-link {
-  color: #373E46;
+  color: #000000;
   font-weight: normal;
   font-size: 1em;
   letter-spacing: normal;
@@ -2108,7 +2108,7 @@ input[type="radio"] {
   /* line 121, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_forms.scss */
   input[type="checkbox"]:checked,
   input[type="radio"]:checked {
-    background-color: #FFC334; }
+    background-color: #e2007a; }
   /* line 127, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_forms.scss */
   input[type="checkbox"]:disabled:hover,
   input[type="radio"]:disabled:hover {
@@ -2385,7 +2385,7 @@ img {
   font-size: 1rem;
   text-align: center;
   border-radius: 25px;
-  background: #373E46;
+  background: #000000;
   padding: 8px 16px; }
   /* line 11, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_bug.scss */
   .bug .subtext {
@@ -2406,7 +2406,7 @@ img {
     white-space: nowrap;
     vertical-align: middle;
     border-radius: 100%;
-    background: #FFC334;
+    background: #e2007a;
     margin: 0 0 3px 8px; }
   /* line 34, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_bug.scss */
   .bug svg.iconic {
@@ -2414,7 +2414,7 @@ img {
     top: 50%;
     left: 10px;
     margin-top: -6px;
-    fill: #FFC334; }
+    fill: #e2007a; }
     /* line 41, /Users/Brandon/Sites/platform-design.dev/assets/sass/1_basics/_bug.scss */
     .bug svg.iconic:hover {
       cursor: pointer;
@@ -2513,34 +2513,34 @@ input[type="button"][data-toggle].active .button-label + svg.iconic {
 
 /* line 74, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-beta svg.iconic {
-  fill: #373E46; }
+  fill: #000000; }
 
 /* line 80, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-beta .loading .line {
-  background-color: #373E46; }
+  background-color: #000000; }
 
 /* line 88, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-gamma svg.iconic {
-  fill: #373E46; }
+  fill: #000000; }
 
 /* line 94, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-gamma .loading .line {
-  background-color: #373E46; }
+  background-color: #000000; }
 
 /* line 102, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-link svg.iconic {
-  fill: #373E46; }
+  fill: #000000; }
 
 /* line 108, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-link .loading .line {
-  background-color: #373E46; }
+  background-color: #000000; }
 
 /* line 116, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
 .button-dropdown.active {
   background: #FFFFFF; }
   /* line 119, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
   .button-dropdown.active svg.iconic {
-    fill: #1E232A;
+    fill: #000000;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
 
@@ -2574,7 +2574,7 @@ input[type="button"][data-toggle].active .button-label + svg.iconic {
       background: #FFFFFF; }
       /* line 148, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
       .fab .button-fab.active svg.iconic {
-        fill: #1E232A;
+        fill: #000000;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg); }
   /* line 155, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
@@ -2626,7 +2626,7 @@ input[type="button"][data-toggle].active .button-label + svg.iconic {
         transform: scale(1.025); }
         /* line 201, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
         .fab .fab-options li:hover .bug {
-          background-color: #1E232A; }
+          background-color: #000000; }
       /* line 206, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_buttons.scss */
       .fab .fab-options li:nth-child(2) {
         -webkit-transition-delay: 0.025s;
@@ -2884,7 +2884,7 @@ dt.list-item {
       /* line 64, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_dropdown.scss */
       .dropdown-menu li a:hover {
         color: #FFFFFF;
-        background-color: #373E46; }
+        background-color: #000000; }
         /* line 68, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_dropdown.scss */
         .dropdown-menu li a:hover svg.iconic {
           fill: #FFFFFF; }
@@ -3080,7 +3080,7 @@ fieldset {
       font-size: .857142857em;
       text-align: center;
       border-radius: 100%;
-      background-color: #373E46;
+      background-color: #000000;
       padding: 2px;
       margin: 0 4px; }
       /* line 43, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
@@ -3278,12 +3278,12 @@ fieldset {
       left: 0;
       width: 16px;
       height: 16px;
-      color: #373E46;
+      color: #000000;
       font-weight: bold;
       font-size: 13px;
       line-height: 13px;
       border-radius: 100%;
-      background-color: #FFC334;
+      background-color: #e2007a;
       padding: 2px; }
     /* line 208, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
     .form-field.checkbox.icon-input input[type="radio"], .form-field.radio.icon-input input[type="radio"],
@@ -3601,7 +3601,7 @@ fieldset {
     position: absolute;
     top: 13px;
     left: 16px;
-    fill: #373E46; }
+    fill: #000000; }
 
 /* line 530, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
 fieldset .custom-select {
@@ -3633,19 +3633,19 @@ fieldset,
   fieldset .form-field-toggle,
   .form-fieldgroup .form-field-toggle {
     display: none;
-    color: #373E46;
+    color: #000000;
     padding: 8px; }
     /* line 565, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
     fieldset .form-field-toggle:hover,
     .form-fieldgroup .form-field-toggle:hover {
       cursor: pointer;
-      color: #1E232A; }
+      color: #000000; }
     /* line 570, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
     fieldset .form-field-toggle svg.iconic,
     .form-fieldgroup .form-field-toggle svg.iconic {
       width: 8px;
       height: 8px;
-      fill: #373E46;
+      fill: #000000;
       margin-right: 8px;
       -webkit-transition: 0.3s;
       transition: 0.3s; }
@@ -3743,7 +3743,7 @@ fieldset,
   /* line 683, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
   .form-field-adapt.init.focus input[type="text"], .form-field-adapt.init.focus #payment-form .input, #payment-form .form-field-adapt.init.focus .input,
   .form-field-adapt.init.focus textarea {
-    border-bottom-color: #FFC334; }
+    border-bottom-color: #e2007a; }
   /* line 691, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_forms.scss */
   .form-field-adapt.init.title label {
     display: block;
@@ -4076,7 +4076,7 @@ span[data-fieldgroup-target].init.active {
       z-index: 100;
       top: 50%;
       left: -8px;
-      fill: #373E46;
+      fill: #000000;
       margin-top: -8px; }
   /* line 185, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_listing-item.scss */
   .listing-item .listing-item-title {
@@ -4104,7 +4104,7 @@ span[data-fieldgroup-target].init.active {
 
 /* line 216, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_listing-item.scss */
 .listing-toolbar {
-  background-color: #373E46;
+  background-color: #000000;
   padding: 16px; }
   /* line 3, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/mixins/_clearfix.scss */
   .listing-toolbar:after {
@@ -4226,7 +4226,7 @@ span[data-fieldgroup-target].init.active {
   position: relative;
   color: #FAFAFA;
   border-radius: 0px;
-  background-color: #373E46;
+  background-color: #000000;
   padding: 8px 16px; }
   @media screen and (min-width: 64em) {
     /* line 1, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_message.scss */
@@ -4241,8 +4241,8 @@ span[data-fieldgroup-target].init.active {
         max-width: 600px; } }
     /* line 20, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_message.scss */
     .message p a {
-      color: #FFC334;
-      border-bottom: 1px dotted #FFC334; }
+      color: #e2007a;
+      border-bottom: 1px dotted #e2007a; }
       /* line 24, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_message.scss */
       .message p a:hover {
         border-bottom-style: solid; }
@@ -4386,7 +4386,7 @@ span[data-fieldgroup-target].init.active {
   height: 15px;
   border-radius: 15px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  background-color: #FFC334;
+  background-color: #e2007a;
   margin: 5px; }
   /* line 12, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_loading.scss */
   .loading .line:nth-last-child(1) {
@@ -4635,7 +4635,7 @@ span[data-fieldgroup-target].init.active {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #FFC334;
+  background-color: #e2007a;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out; }
   /* line 234, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_tour.scss */
@@ -4660,9 +4660,9 @@ span[data-fieldgroup-target].init.active {
     height: 20px;
     border: 2px solid #cd9000;
     border: 2px solid #222222;
-    box-shadow: 0 0 0 0 #FFC334, 0 0 0 0 rgba(255, 195, 52, 0.7);
+    box-shadow: 0 0 0 0 #e2007a, 0 0 0 0 rgba(255, 195, 52, 0.7);
     border-radius: 100%;
-    background: #FFC334;
+    background: #e2007a;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
@@ -4681,7 +4681,7 @@ span[data-fieldgroup-target].init.active {
       height: 33px;
       border-right: 2px solid #222222;
       border-left: 2px solid #222222;
-      background-color: #FFC334;
+      background-color: #e2007a;
       -webkit-animation: stemMove1 2s ease-in-out 0s 1 normal none;
       animation: stemMove1 2s ease-in-out 0s 1 normal none; }
   /* line 291, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/_tour.scss */
@@ -4843,7 +4843,7 @@ span[data-fieldgroup-target].init.active {
     .stepper ul li {
       display: inline-block;
       list-style-type: none;
-      color: #373E46;
+      color: #000000;
       font-weight: 900;
       margin: 0;
       padding: 0 16px;
@@ -4851,7 +4851,7 @@ span[data-fieldgroup-target].init.active {
       /* line 23, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_pagination.scss */
       .pagination ul li.active,
       .stepper ul li.active {
-        color: #1E232A;
+        color: #000000;
         cursor: default; }
         /* line 27, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_pagination.scss */
         .pagination ul li.active:hover,
@@ -4873,13 +4873,13 @@ span[data-fieldgroup-target].init.active {
           /* line 43, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_pagination.scss */
           .pagination ul li.pg-number a:hover,
           .stepper ul li.pg-number a:hover {
-            color: #373E46; }
+            color: #000000; }
       /* line 50, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_pagination.scss */
       .pagination ul li.prev, .pagination ul li.next,
       .stepper ul li.prev,
       .stepper ul li.next {
         position: relative;
-        color: #FFC334;
+        color: #e2007a;
         border: 1px solid #EEEEEE;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
@@ -4897,7 +4897,7 @@ span[data-fieldgroup-target].init.active {
         .pagination ul li.prev svg.iconic, .pagination ul li.next svg.iconic,
         .stepper ul li.prev svg.iconic,
         .stepper ul li.next svg.iconic {
-          fill: #373E46; }
+          fill: #000000; }
 
 /* line 4, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_breadcrumb.scss */
 .breadcrumbs li {
@@ -4961,14 +4961,14 @@ span[data-fieldgroup-target].init.active {
     .progress li.active {
       color: #222222;
       border: 1px solid #EEEEEE;
-      border-left: 4px solid #FFC334;
+      border-left: 4px solid #e2007a;
       background-color: #FFFFFF;
       padding-right: 24px; }
       @media screen and (min-width: 64em) {
         /* line 55, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_progress.scss */
         .progress li.active {
           border-left: 1px solid #EEEEEE;
-          border-bottom: 2px solid #FFC334; }
+          border-bottom: 2px solid #e2007a; }
           /* line 66, /Users/Brandon/Sites/platform-design.dev/assets/sass/2_fragments/navigation/_progress.scss */
           .progress li.active:before {
             right: 0;
@@ -5095,17 +5095,17 @@ span[data-fieldgroup-target].init.active {
           margin-right: 4px; }
         /* line 26, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tabs.scss */
         .tabs-menu ul li a:hover {
-          color: #373E46; }
+          color: #000000; }
           /* line 29, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tabs.scss */
           .tabs-menu ul li a:hover svg.iconic {
-            fill: #373E46; }
+            fill: #000000; }
       /* line 37, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tabs.scss */
       .tabs-menu ul li.active a {
-        color: #1E232A;
-        border-bottom: 2px solid #FFC334; }
+        color: #000000;
+        border-bottom: 2px solid #e2007a; }
         /* line 41, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tabs.scss */
         .tabs-menu ul li.active a svg.iconic {
-          fill: #1E232A; }
+          fill: #000000; }
       /* line 49, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tabs.scss */
       .tabs-menu ul li.tabs-menu-action a {
         text-transform: uppercase;
@@ -5421,8 +5421,8 @@ span[data-fieldgroup-target].init.active {
         .form-sheet fieldset.title #payment-form .input:focus, #payment-form
         .form-sheet fieldset.title .input:focus {
           outline: none;
-          border-top-color: #FFC334;
-          border-bottom-color: #FFC334; }
+          border-top-color: #e2007a;
+          border-bottom-color: #e2007a; }
       /* line 81, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_form-sheet.scss */
       .form-sheet .form-sheet-summary.title.form-field-adapt,
       .form-sheet .form-field.title.form-field-adapt,
@@ -5650,7 +5650,7 @@ span[data-fieldgroup-target].init.active {
     font-size: 12px;
     text-align: center;
     border-radius: 100%;
-    background-color: #373E46;
+    background-color: #000000;
     padding: 0;
     margin: 8px 16px;
     margin-right: 8px; }
@@ -5966,7 +5966,7 @@ span[data-fieldgroup-target].init.active {
           left: 16px; } }
   /* line 138, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_survey-filter.scss */
   .survey-filter-checkbox.checked {
-    background: #373E46; }
+    background: #000000; }
     /* line 141, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_survey-filter.scss */
     .survey-filter-checkbox.checked .post-band {
       display: inline-block; }
@@ -5989,7 +5989,7 @@ span[data-fieldgroup-target].init.active {
   border-radius: 20px;
   font-size: 12px;
   text-shadow: 0 1px 1px black;
-  background-color: #373E46;
+  background-color: #000000;
   padding: 4px 8px;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
@@ -6080,7 +6080,7 @@ span[data-fieldgroup-target].init.active {
           margin: 1px 6px; }
           /* line 64, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
           .searchbar .searchbar-input .form-field .input-with-ghost .input-ghost.active + svg.iconic {
-            fill: #373E46; }
+            fill: #000000; }
           /* line 69, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
           .searchbar .searchbar-input .form-field .input-with-ghost .input-ghost mark {
             position: relative;
@@ -6158,13 +6158,13 @@ span[data-fieldgroup-target].init.active {
     .searchbar .searchbar-options .button.active {
       position: relative;
       z-index: 10000;
-      color: #1E232A;
+      color: #000000;
       border-radius: 2px 2px 0 0;
       background-color: #FAFAFA;
       box-shadow: none; }
       /* line 195, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
       .searchbar .searchbar-options .button.active svg.iconic {
-        fill: #1E232A; }
+        fill: #000000; }
     /* line 202, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
     .searchbar .searchbar-options .button.searchbar-options-filter .button-label {
       display: inline-block; }
@@ -6200,17 +6200,17 @@ span[data-fieldgroup-target].init.active {
   /* line 258, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
   .searchbar .searchbar-options .custom-fieldset.init legend {
     color: #FFFFFF;
-    background-color: #373E46; }
+    background-color: #000000; }
     /* line 262, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
     .searchbar .searchbar-options .custom-fieldset.init legend svg.iconic {
       fill: #C7CCD4; }
     /* line 266, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
     .searchbar .searchbar-options .custom-fieldset.init legend.active {
-      color: #1E232A;
+      color: #000000;
       background-color: #FAFAFA; }
       /* line 270, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
       .searchbar .searchbar-options .custom-fieldset.init legend.active svg.iconic {
-        fill: #1E232A; }
+        fill: #000000; }
   /* line 279, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_searchbar.scss */
   .searchbar .dropdown-menu {
     top: 100% !important;
@@ -6353,7 +6353,7 @@ span[data-fieldgroup-target].init.active {
   .tier .tier-summary {
     position: relative;
     overflow: hidden;
-    background-color: #1E232A;
+    background-color: #000000;
     padding: 0 24px 35px; }
     /* line 49, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tiers.scss */
     .tier .tier-summary .tier-heading {
@@ -6544,7 +6544,7 @@ span[data-fieldgroup-target].init.active {
         right: 0;
         left: 0;
         height: 8px;
-        background-color: #FFC334; }
+        background-color: #e2007a; }
       /* line 255, /Users/Brandon/Sites/platform-design.dev/assets/sass/3_modules/_tiers.scss */
       .tiers .tier:after {
         content: '';
@@ -6661,7 +6661,7 @@ span[data-fieldgroup-target].init.active {
   z-index: 4000;
   max-width: 64.0px;
   border-radius: 0;
-  background-color: #373E46; }
+  background-color: #000000; }
   /* line 3, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/mixins/_clearfix.scss */
   .mode-bar:after {
     content: ".";
@@ -6762,13 +6762,13 @@ span[data-fieldgroup-target].init.active {
       width: 25%;
       list-style-type: none;
       text-align: center;
-      background-color: #373E46; } }
+      background-color: #000000; } }
   /* line 109, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
   .mode-bar .deployment-menu li.persist.active a {
-    color: #FFC334; }
+    color: #e2007a; }
     /* line 112, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar .deployment-menu li.persist.active a svg.iconic {
-      fill: #FFC334; }
+      fill: #e2007a; }
   @media screen and (max-width: 1023px) {
     /* line 119, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar .deployment-menu li.tuck {
@@ -6780,7 +6780,7 @@ span[data-fieldgroup-target].init.active {
       z-index: 4000; }
       /* line 129, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
       .mode-bar .deployment-menu li.tuck a {
-        color: #373E46;
+        color: #000000;
         font-weight: 400;
         font-size: 14px;
         font-size: 1rem;
@@ -6791,7 +6791,7 @@ span[data-fieldgroup-target].init.active {
           display: inline-block;
           position: relative;
           top: 2px;
-          fill: #373E46;
+          fill: #000000;
           width: 1em;
           height: 1em;
           margin: 0;
@@ -6799,10 +6799,10 @@ span[data-fieldgroup-target].init.active {
   @media screen and (min-width: 64em) {
     /* line 153, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar .deployment-menu li.active a {
-      color: #FFC334; }
+      color: #e2007a; }
       /* line 156, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
       .mode-bar .deployment-menu li.active a svg.iconic {
-        fill: #FFC334; } }
+        fill: #e2007a; } }
   /* line 165, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
   .mode-bar .account-menu {
     display: -webkit-box;
@@ -6830,7 +6830,7 @@ span[data-fieldgroup-target].init.active {
       @media screen and (max-width: 1023px) {
         /* line 184, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
         .mode-bar .account-menu a {
-          color: #373E46;
+          color: #000000;
           font-weight: 400;
           font-size: 14px;
           font-size: 1rem;
@@ -6848,7 +6848,7 @@ span[data-fieldgroup-target].init.active {
             display: inline-block;
             position: relative;
             top: 2px;
-            fill: #373E46;
+            fill: #000000;
             width: 1em;
             height: 1em;
             margin: 0;
@@ -6881,7 +6881,7 @@ span[data-fieldgroup-target].init.active {
         text-align: center;
         white-space: nowrap;
         border-radius: 25px;
-        background: #373E46;
+        background: #000000;
         padding: 8px 16px;
         margin-left: 0;
         box-shadow: 0 0 16px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.24); } }
@@ -6890,7 +6890,7 @@ span[data-fieldgroup-target].init.active {
       display: inline-block;
       height: 16px;
       width: 16px;
-      color: #1E232A;
+      color: #000000;
       font-size: 10px;
       font-weight: bold;
       text-align: center;
@@ -6898,7 +6898,7 @@ span[data-fieldgroup-target].init.active {
       white-space: nowrap;
       vertical-align: middle;
       border-radius: 100%;
-      background: #FFC334;
+      background: #e2007a;
       margin: 0 0 3px 8px; }
     /* line 269, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar .account-menu .label .subtext {
@@ -6927,10 +6927,10 @@ span[data-fieldgroup-target].init.active {
         fill: #C7CCD4; }
     /* line 313, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar.active .deployment-menu li.persist.more-menu-trigger a {
-      color: #FFC334; }
+      color: #e2007a; }
       /* line 316, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
       .mode-bar.active .deployment-menu li.persist.more-menu-trigger a svg.iconic {
-        fill: #FFC334; }
+        fill: #e2007a; }
     /* line 323, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-bar.scss */
     .mode-bar.active .deployment-menu li.tuck {
       display: block; } }
@@ -6940,12 +6940,12 @@ span[data-fieldgroup-target].init.active {
   position: relative;
   color: #FFFFFF;
   border-radius: 0;
-  background-color: #1E232A;
+  background-color: #000000;
   -webkit-transition: all 0.25s;
   transition: all 0.25s; }
   /* line 13, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
   .mode-context .breadcrumbs li:after {
-    background: #1E232A !important; }
+    background: #000000 !important; }
   /* line 19, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
   .mode-context .mode-context-title {
     color: #FFFFFF;
@@ -6992,7 +6992,7 @@ span[data-fieldgroup-target].init.active {
       left: 16px;
       height: 34px;
       width: 34px;
-      box-shadow: 0 1px 4px #1E232A, 0 0 0 1px #1E232A;
+      box-shadow: 0 1px 4px #000000, 0 0 0 1px #000000;
       margin-top: -6px; }
       @media screen and (min-width: 64em) {
         /* line 63, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
@@ -7017,7 +7017,7 @@ span[data-fieldgroup-target].init.active {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #1E232A;
+    background-color: #000000;
     box-shadow: -1px 0 4px 0 #1e232a;
     padding: 20px 16px; }
     /* line 105, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
@@ -7034,7 +7034,7 @@ span[data-fieldgroup-target].init.active {
     margin-bottom: 16px; }
     /* line 121, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
     .mode-context .metadata a.metadata-author {
-      color: #FFC334; }
+      color: #e2007a; }
       /* line 124, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
       .mode-context .metadata a.metadata-author:hover {
         color: #cd9000; }
@@ -7070,7 +7070,7 @@ span[data-fieldgroup-target].init.active {
     fill: #EEEEEE; }
   /* line 189, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
   .mode-context .tool a {
-    color: #FFC334; }
+    color: #e2007a; }
   /* line 194, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
   .mode-context .mode-context-body {
     padding: 0 16px 24px; }
@@ -7094,11 +7094,11 @@ span[data-fieldgroup-target].init.active {
         margin-top: -16px; }
     /* line 218, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
     .mode-context .mode-context-body .button-link {
-      color: #FFC334;
+      color: #e2007a;
       padding: 0; }
       /* line 222, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
       .mode-context .mode-context-body .button-link svg.iconic {
-        fill: #FFC334; }
+        fill: #e2007a; }
     /* line 227, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
     .mode-context .mode-context-body .bug {
       text-align: left;
@@ -7201,13 +7201,13 @@ span[data-fieldgroup-target].init.active {
     margin: 40.0px auto 0 auto; }
     /* line 350, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_mode-context.scss */
     .mode-context .tool p a:hover {
-      border-bottom-color: #FFC334; }
+      border-bottom-color: #e2007a; }
 
 /* line 1, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_toolbar.scss */
 .toolbar {
   position: relative;
   border-radius: 0px;
-  background-color: #373E46;
+  background-color: #000000;
   padding: 0 16px;
   margin: auto; }
   /* line 3, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/mixins/_clearfix.scss */
@@ -7459,7 +7459,7 @@ span[data-fieldgroup-target].init.active {
     margin-bottom: 24px; }
   /* line 154, /Users/Brandon/Sites/platform-design.dev/assets/sass/4_blocks/_modal.scss */
   .modal-window [data-toggle] {
-    color: #373E46;
+    color: #000000;
     /*
         &.active {
             display: none;
@@ -8054,7 +8054,7 @@ span[data-fieldgroup-target].init.active {
   display: table-cell;
   vertical-align: middle;
   border-radius: 0px;
-  background-color: #373E46;
+  background-color: #000000;
   padding: 16px; }
 
 @media (min-height: 33.875em) {
@@ -8291,7 +8291,7 @@ span[data-fieldgroup-target].init.active {
   right: 2px;
   width: 0;
   height: 0;
-  border-top: 0.5em solid #1E232A;
+  border-top: 0.5em solid #000000;
   border-left: .5em solid transparent; }
 
 /* line 187, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.date.scss */
@@ -8317,15 +8317,15 @@ span[data-fieldgroup-target].init.active {
 .picker__day--highlighted:hover,
 .picker--focused .picker__day--highlighted {
   cursor: pointer;
-  color: #1E232A;
-  background: #FFC334; }
+  color: #000000;
+  background: #e2007a; }
 
 /* line 208, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.date.scss */
 .picker__day--selected,
 .picker__day--selected:hover,
 .picker--focused .picker__day--selected {
   color: #222222;
-  background: #FFC334; }
+  background: #e2007a; }
 
 /* line 214, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.date.scss */
 .picker__day--disabled,
@@ -8387,7 +8387,7 @@ span[data-fieldgroup-target].init.active {
 .picker__button--today:before {
   top: -0.05em;
   width: 0;
-  border-top: 0.66em solid #1E232A;
+  border-top: 0.66em solid #000000;
   border-left: .66em solid transparent; }
 
 /* line 268, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.date.scss */
@@ -8453,7 +8453,7 @@ span[data-fieldgroup-target].init.active {
   cursor: pointer;
   color: #222222;
   font-weight: 900;
-  background: #FFC334; }
+  background: #e2007a; }
 
 /* Selected and hovered/focused time */
 /* line 37, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.time.scss */
@@ -8462,7 +8462,7 @@ span[data-fieldgroup-target].init.active {
 .picker--focused .picker__list-item--selected {
   z-index: 10;
   color: #222222;
-  background: #FFC334; }
+  background: #e2007a; }
 
 /* Disabled time */
 /* line 45, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/pickadate/_pickadate.time.scss */
@@ -8885,7 +8885,7 @@ span[data-fieldgroup-target].init.active {
   font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important; }
   /* line 7, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/overrides/_leaflet-overrides.scss */
   .leaflet-container a {
-    color: #373E46 !important; }
+    color: #000000 !important; }
   /* line 11, /Users/Brandon/Sites/platform-design.dev/assets/sass/utils/overrides/_leaflet-overrides.scss */
   .leaflet-container img {
     max-width: none !important; }
